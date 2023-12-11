@@ -1,0 +1,73 @@
+/* font-family: 'Alkalami', serif;
+font-family: 'Aref Ruqaa', serif;
+font-family: 'Noto Nastaliq Urdu', serif; */
+
+*  {
+    font-family: 'Aref Ruqaa', serif;
+    color: antiquewhite;
+}
+
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.204) 0% 100% )  , url(../media/30.jpg) ;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.middle{
+    width: 100%;
+    height: 35%;
+}
+
+.top-title h1{
+    font-size: 7rem ;
+}
+
+.middle p {
+    font-size: 3rem;
+}
+
+.middle span{
+    font-size: 1rem;
+    font-family: 'Alkalami', serif;
+}
+
+button{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ==================================================== strat media query =================================================== */
+/* ========================================================================================================================== */
+
+@media screen and (max-width:1200px) {
+        * {
+            font-size: 14px;
+        }
+    /* .container{
+        width: 50%;
+    } */
+}
+
+@media screen and (max-width:992px) {
+    * {
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    * {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    * {
+        font-size: 8px;
+    }
+
+    .container{
+        width: 85%;
+    }
+}
+
